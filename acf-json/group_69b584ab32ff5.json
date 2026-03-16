@@ -34,11 +34,32 @@
             "name": "titulo_del_sitio_web",
             "aria-label": "",
             "type": "text",
-            "instructions": "Este es el título principal que se muestra en la página de inicio. Es además el título del sitio web.",
+            "instructions": "Este es el título principal y el título del sitio web.",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
-                "width": "80",
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "allow_in_bindings": 0,
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_69b6cb7930230",
+            "label": "Subtítulo del Sitio Web",
+            "name": "subtitulo_del_sitio_web",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Este es el subtítulo. Se muestra por debajo del título principal.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "40",
                 "class": "",
                 "id": ""
             },
@@ -111,5 +132,5 @@
     "description": "",
     "show_in_rest": 0,
     "display_title": "",
-    "modified": 1773506213
+    "modified": 1773587368
 }

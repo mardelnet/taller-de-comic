@@ -109,7 +109,7 @@
             "max_size": "",
             "mime_types": "",
             "allow_in_bindings": 0,
-            "preview_size": "medium"
+            "preview_size": "thumbnail"
         }
     ],
     "location": [
@@ -145,5 +145,5 @@
     "description": "",
     "show_in_rest": 0,
     "display_title": "",
-    "modified": 1773505810
+    "modified": 1773591945
 }

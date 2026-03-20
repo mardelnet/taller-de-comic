@@ -1,14 +1,14 @@
 @font-face {
-  font-family: "Bangers";
-  src: url("assets/fonts/Bangers-Regular.ttf") format("truetype");
+  font-family: "Aliac";
+  src: url("assets/fonts/Aliac-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Nunito";
   src: url("assets/fonts/Nunito-VariableFont_wght.ttf") format("truetype");
 }
 @font-face {
-  font-family: "RockSalt";
-  src: url("assets/fonts/RockSalt-Regular.ttf") format("truetype");
+  font-family: "BiliBili";
+  src: url("assets/fonts/BiliBili-Regular.ttf") format("truetype");
 }
 @view-transition {
 	navigation: auto;
@@ -39,7 +39,7 @@ footer {
             border-top: 1px solid #666;
         }
         .title {
-            font-family: "RockSalt", sans-serif;
+            font-family: "BiliBili", sans-serif;
             font-size: 32px;
             display: block;
             margin-bottom: 16px;
@@ -67,7 +67,7 @@ iframe {
             padding: 0 16px;
         }
         h1 {
-            font-family: "RockSalt", sans-serif;
+            font-family: "BiliBili", sans-serif;
             text-align: center;
             font-size: 90px;
             line-height: 1;
@@ -81,13 +81,14 @@ iframe {
             }
         }
         h2 {
-            font-family: "Bangers", sans-serif;
+            font-family: "Aliac", sans-serif;
             text-align: center;
             font-size: 40px;
             color: white;
             margin: 20px;
             position: relative;
             z-index: 9;
+            font-weight: bold;
 
             @media screen and (max-width: 768px) {
                 font-size: 25px;
@@ -141,7 +142,7 @@ iframe {
         position: relative;
 
         h1 {
-            font-family: "RockSalt", sans-serif;
+            font-family: "BiliBili", sans-serif;
             text-align: center;
             font-size: 30px;
             line-height: 40px;
@@ -261,15 +262,15 @@ iframe {
             color: #444;
         }
         .item-title {
-            font-family: "Bangers", sans-serif;
-            font-size: 22px;
+            font-family: "Aliac", sans-serif;
+            font-size: 26px;
             letter-spacing: 0.5px;
             margin: 10px 0;
             display: -webkit-box;
-            -webkit-line-clamp: 2;
+            -webkit-line-clamp: 1;
             -webkit-box-orient: vertical;
             overflow: hidden;
-            height: 45px;
+            height: 29px;
 
             @media screen and (max-width: 475px) {
                 height: inherit;
@@ -299,7 +300,7 @@ iframe {
     }
 }
 .last {
-    font-family: "Bangers", sans-serif;
+    font-family: "Aliac", sans-serif;
     font-size: 28px;
     width: fit-content;
     margin: -26px auto 0;
@@ -310,6 +311,8 @@ iframe {
     border-radius: 6px;
     display: flex;
     align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
 
     span {
         font-size: 20px;

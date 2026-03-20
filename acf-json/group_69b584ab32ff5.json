@@ -3,32 +3,6 @@
     "title": "Configuración General",
     "fields": [
         {
-            "key": "field_69b58e4c2ffd7",
-            "label": "Favicon",
-            "name": "favicon",
-            "aria-label": "",
-            "type": "image",
-            "instructions": "Este es el ícono del sitio web.",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "20",
-                "class": "",
-                "id": ""
-            },
-            "return_format": "url",
-            "library": "all",
-            "min_width": "",
-            "min_height": "",
-            "min_size": "",
-            "max_width": "",
-            "max_height": "",
-            "max_size": "",
-            "mime_types": "",
-            "allow_in_bindings": 0,
-            "preview_size": "thumbnail"
-        },
-        {
             "key": "field_69b584abd2b1c",
             "label": "Título del Sitio Web",
             "name": "titulo_del_sitio_web",
@@ -38,7 +12,7 @@
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
-                "width": "40",
+                "width": "50",
                 "class": "",
                 "id": ""
             },
@@ -59,7 +33,7 @@
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
-                "width": "40",
+                "width": "50",
                 "class": "",
                 "id": ""
             },
@@ -71,32 +45,63 @@
             "append": ""
         },
         {
-            "key": "field_69b584c2d2b1d",
-            "label": "Descripción",
-            "name": "descripcion",
+            "key": "field_69b58e4c2ffd7",
+            "label": "Favicon",
+            "name": "favicon",
             "aria-label": "",
-            "type": "textarea",
-            "instructions": "Esta descripción se muestra como información del sitio web en buscadores y cuando se comparte en redes sociales.",
+            "type": "image",
+            "instructions": "Este es el ícono del sitio web.",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
-                "width": "",
+                "width": "50",
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
-            "maxlength": "",
+            "return_format": "url",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "jpg,png,jpeg,svg,gif",
             "allow_in_bindings": 0,
-            "rows": "",
-            "placeholder": "",
-            "new_lines": ""
+            "preview_size": "thumbnail"
+        },
+        {
+            "key": "field_69bd03b916fd9",
+            "label": "Imagen de portada",
+            "name": "image_de_portada",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Esta es la imagen que se muestra por debajo del título, en la página de inicio.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "jpg,png,jpeg,svg,gif",
+            "allow_in_bindings": 0,
+            "preview_size": "thumbnail"
         },
         {
             "key": "field_69b584d4d2b1e",
             "label": "Pie de Página",
             "name": "pie_de_pagina",
             "aria-label": "",
-            "type": "textarea",
+            "type": "wysiwyg",
             "instructions": "Este texto es el pie de página del sitio web.",
             "required": 0,
             "conditional_logic": 0,
@@ -106,11 +111,11 @@
                 "id": ""
             },
             "default_value": "",
-            "maxlength": "",
             "allow_in_bindings": 0,
-            "rows": "",
-            "placeholder": "",
-            "new_lines": "br"
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 0,
+            "delay": 0
         }
     ],
     "location": [
@@ -132,5 +137,5 @@
     "description": "",
     "show_in_rest": 0,
     "display_title": "",
-    "modified": 1773587368
+    "modified": 1773994998
 }

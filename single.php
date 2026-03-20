@@ -17,25 +17,25 @@ $query = new WP_Query($args);
         <span>Inicio</span>
         <img src="<?php echo get_template_directory_uri() ;?>/assets/images/icon-home.png" />
     </a>
-    <header style="background-image: url(<?php echo get_field('portada'); ?>)">
+    <header <?php if (get_field('portada')): ?>style="background-image: url(<?php echo get_field('portada'); ?>)" <?php endif; ?>>
         <div class="overlay"></div>
         <div class="header-overlay"></div>
         <h1><?php echo esc_html( get_the_title() ); ?></h1>
     </header>
     <div class="container">
         <div class="last">
-            <span>Autor:</span>
+            <span>Autor/a:</span>
             <?php echo (!empty(get_field('autor'))) ? get_field('autor') : 'autor desconocido'; ?>
         </div>
         <div class="comic">
-            <object data="<?php echo esc_url( get_field("comic_en_formato_pdf") ); ?>" type="application/pdf" width="100%">
-                <p>El navegador no permite cargar el archivo PDF del cómic.</p>
-                <a href="<?php echo esc_url( get_field("comic_en_formato_pdf") ); ?>">Descargar</a>
-            </object>
+            <?php echo do_shortcode('[pdf-embedder url="' . get_field("comic_en_formato_pdf") .'"]') ?>
+            <a class="descargar" href="<?php echo esc_url( get_field("comic_en_formato_pdf") ); ?>">
+                Descargar
+            </a>
             <div class="comic-data">
-                <span>Fecha de Publicación:</span>
-                <?php echo get_field("fecha_de_publicacion"); ?>
-                <span>Detalles:</span>
+                <span>Fecha de Publicación:</span> <?php echo get_field("fecha_de_publicacion"); ?>
+                <hr>
+                <span>Detalles:</span><br>
                 <?php echo get_field("detalles"); ?>
             </div>
         </div>
@@ -66,6 +66,5 @@ $query = new WP_Query($args);
         </div>
     </section>
 </main>
-
 
 <?php get_footer(); ?>

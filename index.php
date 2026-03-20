@@ -16,7 +16,7 @@ $query = new WP_Query($args);
 <?php get_header(); ?>
 
 <main id="index">
-    <header>
+    <header style="background-image: url(<?php echo get_field("image_de_portada", "options"); ?>);">
         <div class="overlay"></div>
         <div class="header-overlay"></div>
         <a href="/" target="_self">

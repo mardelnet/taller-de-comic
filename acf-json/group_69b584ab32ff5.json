@@ -98,7 +98,7 @@
         },
         {
             "key": "field_69b584d4d2b1e",
-            "label": "Pie de Página",
+            "label": "Pie de Página (Columna 1)",
             "name": "pie_de_pagina",
             "aria-label": "",
             "type": "wysiwyg",
@@ -106,7 +106,49 @@
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
-                "width": "",
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "allow_in_bindings": 0,
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 0,
+            "delay": 0
+        },
+        {
+            "key": "field_69bd44a7d7429",
+            "label": "Pie de Página (Columna 2)",
+            "name": "pie_de_pagina_col_2",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "Este texto es el pie de página del sitio web.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "allow_in_bindings": 0,
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 0,
+            "delay": 0
+        },
+        {
+            "key": "field_69bd44b1d742a",
+            "label": "Pie de Página (Columna 3)",
+            "name": "pie_de_pagina_col_3",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "Este texto es el pie de página del sitio web.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
                 "class": "",
                 "id": ""
             },
@@ -137,5 +179,5 @@
     "description": "",
     "show_in_rest": 0,
     "display_title": "",
-    "modified": 1773994998
+    "modified": 1774011575
 }

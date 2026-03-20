@@ -31,8 +31,6 @@ footer {
     padding: 60px 16px;
 
     .container {
-        max-width: 700px;
-
         .addtoany_shortcode {
             margin-top: 30px;
             padding-top: 30px;
@@ -43,6 +41,22 @@ footer {
             font-size: 32px;
             display: block;
             margin-bottom: 16px;
+        }
+        .cols {
+            display: flex;
+            gap: 40px;
+            
+            @media screen and (max-width: 768px) {
+                display: block;
+            }
+            div {
+                flex: 1;
+                text-align: left;
+
+                @media screen and (max-width: 768px) {
+                    text-align: center;
+                }
+            }
         }
     }
 }
@@ -55,7 +69,7 @@ iframe {
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
-        padding: 100px 0;
+        padding: 70px 0;
         position: relative;
 
         @media screen and (max-width: 768px) {
@@ -69,7 +83,7 @@ iframe {
         h1 {
             font-family: "BiliBili", sans-serif;
             text-align: center;
-            font-size: 90px;
+            font-size: 100px;
             line-height: 1;
             color: white;
             margin: 0;
@@ -85,7 +99,7 @@ iframe {
             text-align: center;
             font-size: 40px;
             color: white;
-            margin: 20px;
+            margin: 0;
             position: relative;
             z-index: 9;
             font-weight: bold;
@@ -138,19 +152,23 @@ iframe {
         width: 100%;
         background-size: cover;
         background-position: center center;
-        padding: 40px 0 70px;
+        padding: 70px 0;
         position: relative;
 
         h1 {
             font-family: "BiliBili", sans-serif;
             text-align: center;
-            font-size: 30px;
+            font-size: 60px;
             line-height: 40px;
             color: white;
             margin: 0 auto;
             position: relative;
             z-index: 9;
             max-width: 960px;
+
+            @media screen and (max-width: 768px) {
+                font-size: 45px;
+            }
         }
         .header-overlay {
             background-color: black;

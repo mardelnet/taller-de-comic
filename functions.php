@@ -118,8 +118,8 @@ function custom_login_styles_inline() {
             }
             #login {
                 background-color: rgba(255,255,255,0.9);
-                padding: 40px;
-                margin: 40px auto 0;
+                padding: 40px !important;
+                margin: 40px auto 0 !important;
             }
             .wp-login-logo {
                 display: none;
